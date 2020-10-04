@@ -2,6 +2,8 @@
 <odoo>
     <template id="assets" inherit_id="point_of_sale.assets">
         <xpath expr="." position="inside" >
+            <!-- <link rel="stylesheet" href="/pricelist_product/static/src/css/pos_uoms_price.css"/> -->
+            <script type="text/javascript" src="/pricelist_product/static/src/js/pos_uoms_price.js"></script>
             <script type="text/javascript" src="/pricelist_product/static/src/js/screens.js"></script>
         </xpath>
     </template>

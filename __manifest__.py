@@ -6,10 +6,14 @@
     'summary': 'Summary the addon.',
     'description': '''Description the addon'''
                    ,
-    'depends': ['product'],
+    'depends': ['point_of_sale', 'product', 'sale'],
     'data': [
+        'views/pos_order.xml',
         'views/pricelist_product_template.xml',
         'views/pricelist_product_views.xml',
+    ],
+    'qweb': [
+        'static/src/xml/pos_uoms_price.xml',
     ],
     'images': [''],
     'auto_install': False,

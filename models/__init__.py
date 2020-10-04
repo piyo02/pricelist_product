@@ -1,1 +1,4 @@
+import pos_order_line
 import product_template
+import sale
+import stock_move
